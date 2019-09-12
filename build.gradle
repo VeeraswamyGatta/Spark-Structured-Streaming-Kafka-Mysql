@@ -38,7 +38,7 @@ dependencies {
 
     compile group: 'org.apache.kafka', name: 'kafka_2.11', version: '0.10.0.1'
     compile group: 'org.apache.kafka', name: 'kafka-clients', version: '0.10.0.1'
-
+    compile 'mysql:mysql-connector-java:5.1.48'
     compile group: 'commons-io', name: 'commons-io', version: '2.5'
 }
 
